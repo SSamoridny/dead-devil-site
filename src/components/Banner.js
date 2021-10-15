@@ -21,7 +21,7 @@ export default function Banner() {
       </div>
 
 
-      <div className="devil-intro p-5 text-center">
+      <div className="devil-intro pb-5 pt-2 text-center">
         <p>5000 Devils have risen from the depths of HELL to the Blockchain</p>
         <p>There is no choice, but to join... the DEAD DEVIL SOCIETY</p>
       </div>
