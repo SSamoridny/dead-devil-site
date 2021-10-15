@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(156, 18, 18);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.banner {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  animation: pulse 4s infinite;
+  box-shadow: 0px 0px 18px 10px #ffe614, 0px 0px 30px 20px #f30606,
+    0px 0px 55px 45px #f36f03;
+  border-radius: 5px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 18 5 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 30 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+.row .list-group-item {
+  background: rgb(156, 18, 18);
+}
+
+.icon-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+.devil-intro p {
+  font-family: scary;
+  font-size: 3rem;
+  margin-top: 5rem;
+  color: white;
+}
+
+.art-link {
+  width: 3rem;
+  height: 3rem;
+}
+
+.text h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.teamDDS h3 {
+  font-size: 1rem;
+}
+
+.teamDDS p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.artpic {
+  width: 16.5%;
+}
+
+.artpic-vox {
+  width: 16.5%;
+  height: 25vh;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(156, 18, 18);
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: grey;
+  border-radius: 50%;
+}
