@@ -30,7 +30,7 @@ export default function Navbar() {
         <ReactAudioPlayer
             style={{display: 'inline-block', margin: 'auto', width: '8rem'}}
             src={music}
-            autoPlay
+            autoPlay={true}
             loop
             controls
           />
