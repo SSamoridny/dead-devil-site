@@ -57,7 +57,7 @@ export default function Art() {
         </h1>
       </div>
       <div class="carousel-inner pb-5" style={{ width: "90%", margin: "auto" }}>
-        <div class="carousel-item active" data-bs-interval="5000">
+        <div class="carousel-item active" data-bs-interval="4000">
           <img src={art0} class="artpic" alt="" />
           <img src={art1} class="artpic" alt="" />
           <img src={art2} class="artpic" alt="" />
@@ -65,7 +65,7 @@ export default function Art() {
           <img src={art4} class="artpic" alt="" />
           <img src={art6} class="artpic" alt="" />
         </div>
-        <div class="carousel-item" data-bs-interval="5000">
+        <div class="carousel-item" data-bs-interval="4000">
           <img src={art7} class="artpic" alt="" />
           <img src={art8} class="artpic" alt="" />
           <img src={art9} class="artpic" alt="" />
@@ -73,7 +73,7 @@ export default function Art() {
           <img src={art11} class="artpic" alt="" />
           <img src={art12} class="artpic" alt="" />
         </div>
-        <div class="carousel-item" data-bs-interval="5000">
+        <div class="carousel-item" data-bs-interval="4000">
           <img src={art13} class="artpic" alt="" />
           <img src={art14} class="artpic" alt="" />
           <img src={art15} class="artpic" alt="" />
