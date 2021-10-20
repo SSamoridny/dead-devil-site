@@ -33,7 +33,7 @@ export default function Collabs() {
       style={{ textAlign: "center" }}
     >
       <h1
-        className="pl-5"
+        className=""
         style={{ fontFamily: "scary", fontSize: "8rem", color: "white" }}
       >
         CURATED
@@ -43,8 +43,10 @@ export default function Collabs() {
           rel="noreferrer"
           style={{
             display: "inline-block",
-            textDecoration: "none",
             color: "white",
+            fontFamily: "Ubuntu",
+            fontSize: "1rem",
+            verticalAlign: "middle",
           }}
         >
           <i>
@@ -54,6 +56,7 @@ export default function Collabs() {
               alt="Open Sea icon"
             />
           </i>
+          Open Sea
         </a>
       </h1>
       <div class="carousel-inner pb-5" style={{ width: "90%", margin: "auto" }}>

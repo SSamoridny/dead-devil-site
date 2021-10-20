@@ -27,7 +27,7 @@ export default function Art() {
     >
       <div className="art-intro" style={{ textAlign: "center" }}>
         <h1
-          className="pl-5 mr-3"
+          className=""
           style={{
             fontFamily: "scary",
             fontSize: "8rem",
@@ -42,8 +42,10 @@ export default function Art() {
             rel="noreferrer"
             style={{
               display: "inline-block",
-              textDecoration: "none",
               color: "white",
+              fontFamily: "Ubuntu",
+              fontSize: "1rem",
+              verticalAlign: "middle",
             }}
           >
             <i>
@@ -53,6 +55,7 @@ export default function Art() {
                 alt="Open Sea icon"
               />
             </i>
+            Open Sea
           </a>
         </h1>
       </div>
